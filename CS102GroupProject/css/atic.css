@@ -2,12 +2,68 @@
     font-family:My Font; 
     src: url(../fonts/GOTHIC.TTF)
 }
-header, nav, main, footer{
-    display: block;
+.navbar{
+    position: fixed;
+    top: 90px;
 }
+.navbar a{
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+}
+/* header, nav, main, footer{
+    display: block;
+} */
 #wrapper{
-    font-family: "My Font", Arial, sans-serif; 
+    margin: 0 auto;
+    word-spacing: 2em;
+    width: 80%;
 }
 *{
+    font-family: "My Font", Arial, sans-serif; 
+}
+.drop{
+    position: relative;
+    display: inline-block;
+}
+.fdrop{
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    background-color: white;
+}
 
+.fdropcontent {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+
+.fdropcontent a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+
+.fdropcontent a:hover {background-color: #ffaa80;}
+
+
+.drop:hover .fdropcontent {display: block;}
+
+
+.drop:hover .fdrop{
+/* background-color: #3f3250; */
+color: #ff9966;
+}
+
+.navbar nav a:visited{
+    color: black;
 }
