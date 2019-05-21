@@ -2,9 +2,17 @@
     font-family:My Font; 
     src: url(../fonts/GOTHIC.TTF)
 }
+#logo{
+    background-image: url(../images/Artboard\ 1.png);
+    background-size: 350px 350px;
+    height: 250px;
+    background-repeat: no-repeat;
+}
 .navbar{
-    position: fixed;
     top: 150px;
+    word-spacing: 2em;
+    width: 80%;
+    margin: 0 auto;
 }
 .navbar a, .navbar button{
     font-size: 2em;
@@ -22,9 +30,7 @@
     display: block;
 } */
 #wrapper{
-    margin: 0 auto;
-    word-spacing: 2em;
-    width: 80%;
+    border-top: 2px solid #ff9966;
 }
 *{
     font-family: "My Font", Arial, sans-serif; 
@@ -97,3 +103,11 @@ color: #ff9966;
 nav a:link{ color: black; }
 nav a:visited{ color: black; }
 nav a:hover{ color: black;}
+footer{
+    position: relative;
+    top: 700px;
+    word-spacing: 3px;
+    text-align: center;
+    border-top: 2px solid #ff9966;
+    
+}
