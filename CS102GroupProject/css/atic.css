@@ -4,13 +4,19 @@
 }
 .navbar{
     position: fixed;
-    top: 90px;
+    top: 150px;
+}
+.navbar a, .navbar button{
+    font-size: 2em;
 }
 .navbar a{
     display: inline-block;
     text-decoration: none;
     list-style-type: none;
     text-align: center;
+}
+.fdropcontent, .cdropcontent{
+    font-size: 1em;
 }
 /* header, nav, main, footer{
     display: block;
@@ -27,7 +33,7 @@
     position: relative;
     display: inline-block;
 }
-.fdrop{
+.dropbutton{
     color: black;
     padding: 16px;
     font-size: 16px;
@@ -35,15 +41,16 @@
     background-color: white;
 }
 
+/* FURNISHINGS SECTION START */
+
 .fdropcontent {
 display: none;
 position: absolute;
 background-color: #f1f1f1;
-min-width: 160px;
 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-z-index: 1;
+right: 15px;
+width: 200px;
 }
-
 
 .fdropcontent a {
 color: black;
@@ -52,18 +59,41 @@ text-decoration: none;
 display: block;
 }
 
-
 .fdropcontent a:hover {background-color: #ffaa80;}
-
 
 .drop:hover .fdropcontent {display: block;}
 
+/* FURNISHINGS SECTION END */
 
-.drop:hover .fdrop{
+/* CAREERS SECTION START */
+
+.cdropcontent {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+right: -45px;
+width: 250px;
+}
+
+.cdropcontent a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.cdropcontent a:hover {background-color: #ffaa80;}
+
+.drop:hover .cdropcontent {display: block;}
+
+/* CAREERS SECTION END */
+
+.drop:hover .dropbutton{
 /* background-color: #3f3250; */
 color: #ff9966;
 }
 
-.navbar nav a:visited{
-    color: black;
-}
+nav a:link{ color: black; }
+nav a:visited{ color: black; }
+nav a:hover{ color: black;}
