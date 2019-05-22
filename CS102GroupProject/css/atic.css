@@ -2,17 +2,26 @@
     font-family:My Font; 
     src: url(../fonts/GOTHIC.TTF)
 }
+header{
+    background-color: solid white;
+ 
+}
 #logo{
     background-image: url(../images/Artboard\ 1.png);
     background-size: 350px 350px;
     height: 250px;
     background-repeat: no-repeat;
 }
+nav{
+    background-color:solid white;
+}
+
 .navbar{
     top: 150px;
     word-spacing: 2em;
     width: 80%;
     margin: 0 auto;
+   
 }
 .navbar a, .navbar button{
     font-size: 2em;
@@ -31,6 +40,7 @@
 } */
 #wrapper{
     border-top: 2px solid #ff9966;
+    
 }
 *{
     font-family: "My Font", Arial, sans-serif; 
