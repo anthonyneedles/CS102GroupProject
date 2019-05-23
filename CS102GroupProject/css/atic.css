@@ -14,6 +14,7 @@ header{
 }
 nav{
     background-color:solid white;
+    
 }
 
 .navbar{
@@ -21,10 +22,12 @@ nav{
     word-spacing: 2em;
     width: 80%;
     margin: 0 auto;
+    
    
 }
 .navbar a, .navbar button{
     font-size: 2em;
+    color: #ff9966;
 }
 .navbar a{
     display: inline-block;
@@ -39,7 +42,7 @@ nav{
     display: block;
 } */
 #wrapper{
-    border-top: 2px solid #ff9966;
+    border-top: 2px solid black;
     
 }
 *{
@@ -109,6 +112,19 @@ display: block;
 /* background-color: #3f3250; */
 color: #ff9966;
 }
+/*  Cafe Menu Section */
+#cafebox{
+    float: left;
+
+}
+h1{
+    font-weight: 550;
+    margin-left: 10%;
+    color: #ff9966;
+    
+}
+
+
 
 nav a:link{ color: black; }
 nav a:visited{ color: black; }
