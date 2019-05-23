@@ -128,7 +128,8 @@ main ul{
     list-style-type: none;
 }
 main li{
-    margin-right: 5%;
+    margin-right: 5%; 
+    margin-left: 16px;
     width: 500px;
     height: 700px;
     border: 2px solid coral;
@@ -142,6 +143,10 @@ main li{
 main ul li a{
     text-decoration: none;
     color: black;
+    border: 5px solid #3396ff;
+    padding-bottom: 5px;
+    
+
 }
 .clear{
     clear: both;
