@@ -2,6 +2,7 @@
     font-family:My Font; 
     src: url(../fonts/GOTHIC.TTF)
 }
+
 header{
     background-color: solid white;
  
@@ -23,6 +24,7 @@ nav{
     width: 80%;
     margin: 0 auto;
     
+    
    
 }
 .navbar a, .navbar button{
@@ -34,6 +36,7 @@ nav{
     text-decoration: none;
     list-style-type: none;
     text-align: center;
+    
 }
 .fdropcontent, .cdropcontent{
     font-size: 1em;
@@ -113,27 +116,47 @@ display: block;
 color: #ff9966;
 }
 /*  Cafe Menu Section */
-#cafebox{
-    float: left;
-
-}
 h1{
     font-weight: 550;
-    margin-left: 10%;
+    margin-left: 5%;
     color: #ff9966;
     
 }
 
+
+main ul{
+    list-style-type: none;
+}
+main li{
+    margin-right: 5%;
+    width: 500px;
+    height: 700px;
+    border: 2px solid coral;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.5em;
+    
+    
+
+}
+main ul li a{
+    text-decoration: none;
+    color: black;
+}
+.clear{
+    clear: both;
+}
 
 
 nav a:link{ color: black; }
 nav a:visited{ color: black; }
 nav a:hover{ color: black;}
 footer{
-    position: relative;
+    position: static;
     top: 700px;
     word-spacing: 3px;
     text-align: center;
     border-top: 2px solid #ff9966;
+    
     
 }
