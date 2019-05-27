@@ -1,60 +1,57 @@
+/* GENERAL START */
+
 @font-face{
     font-family:My Font; 
     src: url(../fonts/GOTHIC.TTF)
 }
 
+*{
+    font-family: "My Font", Arial, sans-serif; 
+}
+
+/* GENERAL END */
+
+/* HEADER START */
 header{
     background-color: solid white;
  
 }
+
 #logo{
     background-image: url(../images/Artboard\ 1.png);
     background-size: 350px 350px;
     height: 250px;
     background-repeat: no-repeat;
 }
-nav{
-    background-color:solid white;
-    
-}
+
+/* HEADER END */
+
+/* NAVIGATION START */
 
 .navbar{
     top: 150px;
     word-spacing: 2em;
     width: 80%;
     margin: 0 auto;
-    
-    
-   
 }
+
 .navbar a, .navbar button{
     font-size: 2em;
     color: #ff9966;
 }
+
 .navbar a{
     display: inline-block;
     text-decoration: none;
     list-style-type: none;
     text-align: center;
-    
 }
-.fdropcontent, .cdropcontent{
-    font-size: 1em;
-}
-/* header, nav, main, footer{
-    display: block;
-} */
-#wrapper{
-    border-top: 2px solid black;
-    
-}
-*{
-    font-family: "My Font", Arial, sans-serif; 
-}
+
 .drop{
     position: relative;
     display: inline-block;
 }
+
 .dropbutton{
     color: black;
     padding: 16px;
@@ -63,7 +60,14 @@ nav{
     background-color: white;
 }
 
-/* FURNISHINGS SECTION START */
+.drop:hover .dropbutton{
+    /* background-color: #3f3250; */
+    color: #ff9966;
+}
+
+.fdropcontent, .cdropcontent{
+    font-size: 1em;
+}
 
 .fdropcontent {
 display: none;
@@ -85,10 +89,6 @@ display: block;
 
 .drop:hover .fdropcontent {display: block;}
 
-/* FURNISHINGS SECTION END */
-
-/* CAREERS SECTION START */
-
 .cdropcontent {
 display: none;
 position: absolute;
@@ -109,12 +109,68 @@ display: block;
 
 .drop:hover .cdropcontent {display: block;}
 
-/* CAREERS SECTION END */
+/* NAVIGATION END */
 
-.drop:hover .dropbutton{
-/* background-color: #3f3250; */
-color: #ff9966;
+/* FOOTER START */
+
+footer{
+    position: static;
+    top: 700px;
+    word-spacing: 3px;
+    text-align: center;
+    border-top: 2px solid #ff9966;
+    
+    
 }
+
+/* FOOTER END */
+
+/* CAREERS PAGE START */
+
+#careerhero{
+    background-image: url(../images/careershero.jpeg);
+    background-size: 700px 700px;
+    height: 700px;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#careerwrapper{
+    border-top: 2px solid black;
+}
+
+#careerwrapper table{
+    
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#careerwrapper tr:first-child td:last-child{
+    padding-left: 50px;
+}
+#careerwrapper td:first-child{
+    width: 700px;
+    text-align: center;
+    font-style: italic;
+}
+#careerwrapper label{
+    float: left;
+    width: 80px;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* CAREERS PAGE END */
+
+/* header, nav, main, footer{
+    display: block;
+} */
+#wrapper{
+    border-top: 2px solid black;
+}
+
 /*  Cafe Menu Section */
 h1{
     font-weight: 550;
@@ -148,15 +204,6 @@ main ul li a{
 }
 
 
-nav a:link{ color: black; }
-nav a:visited{ color: black; }
-nav a:hover{ color: black;}
-footer{
-    position: static;
-    top: 700px;
-    word-spacing: 3px;
-    text-align: center;
-    border-top: 2px solid #ff9966;
-    
-    
-}
+
+
+

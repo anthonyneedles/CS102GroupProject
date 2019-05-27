@@ -7,7 +7,7 @@
 <head>
    <title> A T I C Home Furnishings </title>
    <meta charset="utf-8">
-   <link rel="stylesheet" href="../CS102GroupProject/css/atic1.css">
+   <link rel="stylesheet" href="../CS102GroupProject/css/atic.css">
    <script type="text/javascript" src="script.js"></script>
    <link rel="icon" href="../CS102GroupProject/images/artboard_1_iDP_icon.ico">
 </head>
@@ -39,39 +39,52 @@
       </nav>
    </div>
 </header>
-<div id="wrapper">
+<div id="careerwrapper">
 <body>
-   <div></div>
-   <form method="POST" action="welcome.html" autocomplete>
-      <label for="n1">Name</label> <input type="text" id="name" name="n1"><br><br>
+   <table>
+      <tr>
+         <td>
+            <div id="careerhero"></div>
+         </td>
+         <td>
+            <h2>Looking to join the ATIC team?</h2>
+            <h2>You've come to the right place!</h2>
 
-      <label for="em">Email</label> <input type="email" name="em" id="email"><br><br>
+            <br>
 
-      <label for="pass">Password</label> <input type="password" name="pass" id="password"><br><br>
+            <h4>
+               At ATIC you'll find not a job, but a career! Come join a family 10,000 strong, full of people who love providing customers with top of the line products, an unbeatable selection, and a warm, welcoming attitude!
+            </h4>
 
+            <h4>
+               Please fill out the following form and we'll get back to you if we think you have the ATIC attitude!
+            </h4>
 
-      <label for="age">Age</label> <input type="number" name="age" id="age"><br><br>
+            <br>
 
-      <label for="city">Select Your City</label><br>
-       <select name="city" id="city">
-           <option value="v1">Seattle</option>
-           <option value="v2">Bellingham</option>
-       </select>
-       <br><br>
-       <label for="movie">Fovourite Movies</label><br>
-       Run<input type="checkbox" name="" id="">
-       Good <input type="checkbox" name="" id="">
+            <form method="POST" action="welcome.html" autocomplete>
+               <label for="n1">Name:</label> <input type="text" name="n1" id="name" ><br><br>
+         
+               <label for="em1">Email:</label> <input type="email" name="em1" id="email"><br><br>
+         
+               <label for="tel1">Phone:</label> <input type="tel" name="tel1" id="phone"><br><br>
 
-       <br><br>
-       <label for="gender">Gender</label><br>
-       M<input type="radio" name="g1" id="">
-       F <input type="radio" name="g1" id="">
+               <label for="tel1">Resume:</label> <input type="file" name="file1" id="file">
 
+               <br><br><br>
 
-
-       <br><br>
-       <input type="submit" value="Login">
-   </form>
+               <input type="submit" value="Send Application">
+            </form>
+            <tr>
+               <td>
+                  <br>
+                  Here at ATIC, we embody diversity!
+               </td>
+            </tr>
+         </td>
+      </tr>
+         
+   </table>
 </body>
 <footer>
    ATIC <br>
