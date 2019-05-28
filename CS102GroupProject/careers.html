@@ -8,7 +8,7 @@
    <title> A T I C Home Furnishings </title>
    <meta charset="utf-8">
    <link rel="stylesheet" href="../CS102GroupProject/css/atic.css">
-   <script type="text/javascript" src="script.js"></script>
+   <!-- <script type="text=/javascript" src="../CS102GroupProject/js/CareerFormScript.js"></script> -->
    <link rel="icon" href="../CS102GroupProject/images/artboard_1_iDP_icon.ico">
 </head>
 <header>
@@ -62,19 +62,22 @@
 
             <br>
 
-            <form method="POST" action="welcome.html" autocomplete>
-               <label for="n1">Name:</label> <input type="text" name="n1" id="name" ><br><br>
+            <form method="POST" action="careers.html" autocomplete onsubmit="return formValid()">
+               <label for="n1">Name:</label> <input type="text" name="n1" id="name" pattern="[a-zA-Z\s]*" title="Only letters and spaces." placeholder="Person McPerson..."><br><br>
          
-               <label for="em1">Email:</label> <input type="email" name="em1" id="email"><br><br>
+               <label for="em1">Email:</label> <input type="email" name="em1" id="email" title="Standard email format." placeholder="example@site.com..."><br><br>
          
-               <label for="tel1">Phone:</label> <input type="tel" name="tel1" id="phone"><br><br>
+               <label for="tel1">Phone:</label> <input type="tel" name="tel1" id="phone" pattern="[0-9-]{12}" title="Seperated by dashes. Includes area code." placeholder="123-456-7890..."><br><br>
 
-               <label for="tel1">Resume:</label> <input type="file" name="file1" id="file">
+               <label for="file1">Resume:</label> <input type="file" name="file1" id="file" accept=".pdf" placeholder=".">
 
                <br><br><br>
 
                <input type="submit" value="Send Application">
             </form>
+
+            <script src="../CS102GroupProject/js/CareerFormScript.js"></script>
+
             <tr>
                <td>
                   <br>
