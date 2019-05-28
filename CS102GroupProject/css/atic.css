@@ -137,7 +137,7 @@ footer{
 }
 
 #careerwrapper{
-    border-top: 2px solid black;
+    border-top: 2px solid #ff9966;
 }
 
 #careerwrapper table{
@@ -168,10 +168,10 @@ footer{
     display: block;
 } */
 #wrapper{
-    border-top: 2px solid black;
+    border-top: 2px solid #ff9966;
 }
 
-/*CAFE - MAIN MENU */
+/*CAFE - MAIN MENU START*/
 h1{
     font-weight: 550;
     margin-left: 5%;
@@ -202,16 +202,30 @@ main ul li a{
 .clear{
     clear: both;
 }
-/* CAFE - SANDWICH MENU*/
-/* CAFE - SALAD MENU*/
-/* CAFE - SOUP MENU*/
-/*FURNISHINGS - BED*/
-/*FURNISHINGS - BATH*/
-/*FURNISHINGS - LIVING*/
-/*FURNISHINGS - KITCHEN*/
-/*FURNISHINGS - PATIO*/
+/* CAFE - SANDWICH MENU START*/
+/* CAFE - SALAD MENU START*/
+/* CAFE - SOUP MENU START*/
+/*FURNISHINGS - BED START*/
+/*FURNISHINGS - BATH START*/
+/*FURNISHINGS - LIVING START*/
+/*FURNISHINGS - KITCHEN START*/
+/*FURNISHINGS - PATIO START*/
 
-
-
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+#furn{
+    background-image: url(../images/furniture.jpg)
+}
+#dining{
+    background-image: url(../images/dining.jpg) 
+}
+#dining2{
+    background-image: url(../images/dining4.jpg
+}
 
 
