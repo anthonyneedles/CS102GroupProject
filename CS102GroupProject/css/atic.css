@@ -180,29 +180,31 @@ h1{
 }
 
 
-main ul{
-    list-style-type: none;
+
+.block1{
+    float: left;
+    width: 33.33%;
 }
-main li{
-    margin-right: 5%; 
-    margin-left: 16px;
-    width: 500px;
-    height: 700px;
-    border: 2px solid coral;
-    text-align: center;
+.block2{
+    float: right;
+    width: 33.33%;
+}
+.block3{
     display: inline-block;
-    font-size: 1.5em;
-    
-    
-
+    width: 33.33%;
 }
-main ul li a{
-    text-decoration: none;
-    color: black;
-    border: 5px solid #3396ff;
-    padding-bottom: 5px;
+.centertext{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 400%;
+    top: 50%;
+    text-align: center;
     
-
+}
+main a{
+    text-decoration: none;
+    color: white;
 }
 .clear{
     clear: both;
