@@ -184,6 +184,7 @@ h1{
 .block1{
     float: left;
     width: 33.33%;
+
 }
 .block2{
     float: right;
@@ -193,6 +194,32 @@ h1{
     display: inline-block;
     width: 33.33%;
 }
+/* .pizza{
+    background-image: url(../images/pizza.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 33.33%;
+    position: relative;
+}
+.soup{
+    background-image: url(../images/soup.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+}
+.sandwich{
+    background-image: url(../images/sandwich.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+
+} */
 .centertext{
     position: absolute;
     color: white;
