@@ -268,7 +268,24 @@ main a{
 .clear{
     clear: both;
 }
-/* CAFE - SANDWICH MENU START*/
+/* CAFE - PIZZA MENU START*/
+#pizzawrapper{
+    border-top: 2px solid #ff9966;
+}
+#pizzawrapper table{
+    width: 1300px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#pizzawrapper table tr:first-child{
+    text-align: center;
+}
+#pizzawrapper table tr td p{
+    font-size: 2em;
+    text-align: center;
+}
+
 /* CAFE - SALAD MENU START*/
 /* CAFE - SOUP MENU START*/
 /*FURNISHINGS - BED START*/
