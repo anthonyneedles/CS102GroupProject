@@ -31,7 +31,7 @@ header{
 .navbar{
     top: 150px;
     word-spacing: 2em;
-    width: 80%;
+    width: 1300px;
     margin: 0 auto;
 }
 
@@ -83,6 +83,7 @@ color: black;
 padding: 12px 16px;
 text-decoration: none;
 display: block;
+z-index: 10;
 }
 
 .fdropcontent a:hover {background-color: #ffaa80;}
@@ -121,8 +122,7 @@ footer{
 }
 
 #careerwrapper table{
-    
-    width: 80%;
+    width: 1300px;
     margin: 0 auto;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -154,19 +154,19 @@ footer{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 #aboutusportait1{
-    background-image: url(../images/300x300_placeholder.png);
+    background-image: url(../images/hs1.jpg);
 }
 #aboutusportait2{
-    background-image: url(../images/300x300_placeholder.png);
+    background-image: url(../images/hs2.jpg);
 }
 #aboutusportait3{
-    background-image: url(../images/300x300_placeholder.png);
+    background-image: url(../images/hs3.jpg);
 }
 #aboutusportait4{
-    background-image: url(../images/300x300_placeholder.png);
+    background-image: url(../images/hs4.jpg);
 }
 #aboutusportait5{
-    background-image: url(../images/300x300_placeholder.png);
+    background-image: url(../images/hs5.jpg);
 }
 
 #aboutuswrapper{
@@ -185,7 +185,12 @@ footer{
     padding-left: 30px;
     padding-right: 30px;
 }
-
+#aboutuswrapper h2{
+    width: 1300px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
 #aboutuswrapper p{
     width: 1300px;
     padding-bottom: 30px;
@@ -197,8 +202,14 @@ footer{
 /* header, nav, main, footer{
     display: block;
 } */
-#wrapper{
+#cafewrapper{
     border-top: 2px solid #ff9966;
+}
+
+#cafewrapper table{
+    width: 1300px;
+    margin: 0 auto;
+    padding-bottom: 30px;
 }
 
 /*CAFE - MAIN MENU START*/
@@ -259,7 +270,6 @@ main ul{
     font-size: 400%;
     top: 50%;
     text-align: center;
-    
 }
 main a{
     text-decoration: none;
