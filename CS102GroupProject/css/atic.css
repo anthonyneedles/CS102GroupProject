@@ -100,9 +100,7 @@ footer{
     top: 700px;
     word-spacing: 3px;
     text-align: center;
-    border-top: 2px solid #ff9966;
-    
-    
+    border-top: 2px solid #ff9966;    
 }
 
 /* FOOTER END */
@@ -319,5 +317,3 @@ main a{
     width: 900px;
     height: 500px;
 }
-
-
