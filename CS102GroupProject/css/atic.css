@@ -216,7 +216,7 @@ main ul{
 .block1{
     float: left;
     width: 33.33%;
-
+    
 }
 .block2{
     float: right;
@@ -226,6 +226,10 @@ main ul{
     display: inline-block;
     width: 33.33%;
 }
+/* .images{
+    height: 500px;
+    width: 800px;
+} */
 /* .pizza{
     background-image: url(../images/pizza.jpg);
     background-size: cover;
@@ -264,6 +268,7 @@ main ul{
 main a{
     text-decoration: none;
     color: white;
+    
 }
 .clear{
     clear: both;
