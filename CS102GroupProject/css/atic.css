@@ -164,6 +164,56 @@ footer{
 
 /* CAREERS PAGE END */
 
+/* ABOUT US PAGE START */
+
+#aboutusportait1, #aboutusportait2, #aboutusportait3, #aboutusportait4, #aboutusportait5{
+    background-size: 200px 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+#aboutusportait1{
+    background-image: url(../images/300x300_placeholder.png);
+}
+#aboutusportait2{
+    background-image: url(../images/300x300_placeholder.png);
+}
+#aboutusportait3{
+    background-image: url(../images/300x300_placeholder.png);
+}
+#aboutusportait4{
+    background-image: url(../images/300x300_placeholder.png);
+}
+#aboutusportait5{
+    background-image: url(../images/300x300_placeholder.png);
+}
+
+#aboutuswrapper{
+    border-top: 2px solid #ff9966;
+}
+
+#aboutuswrapper table{
+    width: 1300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+#aboutuswrapper tr:first-child td{
+    width: 200px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#aboutuswrapper p{
+    width: 1300px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+
+/* ABOUT US PAGE END */
+
 /* header, nav, main, footer{
     display: block;
 } */
