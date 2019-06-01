@@ -215,7 +215,9 @@ footer{
     text-align: center;
 }
 
-
+#cafewrapper{
+    border-top: 2px solid #ff9966;
+}
 #cafewrapper table{
     width: 1300px;
     margin: 0 auto;
