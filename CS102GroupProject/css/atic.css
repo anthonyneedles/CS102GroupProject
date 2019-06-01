@@ -76,6 +76,7 @@ background-color: #f1f1f1;
 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 right: 15px;
 width: 200px;
+z-index:10;
 }
 
 .fdropcontent a {
@@ -197,9 +198,18 @@ footer{
 /* header, nav, main, footer{
     display: block;
 } */
-#wrapper{
+#slideshowwrapper{
     border-top: 2px solid #ff9966;
 }
+/* #slideshowwrapper table tr td{ 
+    border: 1px solid black;
+}*/
+#slideshowwrapper table tr td:first-child{
+    width: 1100px
+}#slideshowwrapper table tr td:last-child{
+    text-align: center;
+}
+
 
 /*CAFE - MAIN MENU START*/
 h1{
@@ -277,21 +287,25 @@ main a{
 /*FURNISHINGS - KITCHEN START*/
 /*FURNISHINGS - PATIO START*/
 
-#slideshow > div { 
-    position: absolute; 
-    top: 10px; 
-    left: 10px; 
-    right: 10px; 
-    bottom: 10px; 
+#slideshow {
+    position: relative;
+    width: 300px;
+    height: 510px;
+    padding: 10px;
+    margin-left: 8%;
 }
-#furn{
-    background-image: url(../images/furniture.jpg)
+ 
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
-#dining{
-    background-image: url(../images/dining.jpg) 
-}
-#dining2{
-    background-image: url(../images/dining4.jpg)
+#slideshow > div > img {
+    border: 2px solid white;
+    border-radius: 5%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 900px;
+    height: 500px;
 }
 
 
