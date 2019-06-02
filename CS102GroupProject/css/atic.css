@@ -284,6 +284,7 @@ main ul{
     font-size: 400%;
     top: 40%;
     text-align: center;
+    text-shadow: 1px 1px black;
 }
 main a{
     text-decoration: none;
