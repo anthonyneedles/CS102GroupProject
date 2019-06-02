@@ -318,6 +318,12 @@ main a{
 /*FURNISHINGS - LIVING START*/
 /*FURNISHINGS - KITCHEN START*/
 /*FURNISHINGS - PATIO START*/
+#furnishingwrapper p{
+    width: 1300px;
+    padding-bottom: 30px;
+    text-align: left;
+    margin: 0 auto;
+}
 
 #slideshow {
     position: relative;
