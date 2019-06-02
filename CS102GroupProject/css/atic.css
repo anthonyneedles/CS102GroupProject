@@ -225,9 +225,9 @@ footer{
 /*CAFE - MAIN MENU START*/
 h1{
     font-weight: 550;
-    margin-left: 5%;
+    width: 1300px;
+    margin: 0 auto;
     color: #ff9966;
-    
 }
 
 main ul{
@@ -282,7 +282,7 @@ main ul{
     color: white;
     font-weight: bold;
     font-size: 400%;
-    top: 50%;
+    top: 40%;
     text-align: center;
 }
 main a{
@@ -309,6 +309,10 @@ main a{
 #pizzawrapper table tr td p{
     font-size: 2em;
     text-align: center;
+}
+
+#pizzawrapper table tr th h2{
+    width: 700px;
 }
 
 /* CAFE - SALAD MENU START*/
