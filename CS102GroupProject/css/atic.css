@@ -131,6 +131,10 @@ footer{
     text-align: left;
     font-weight: bold;
 }
+#careerwrapper ul{
+    font-style: italic; 
+    list-style-type: square;
+}
 /* CAREERS PAGE END */
 
 /* ABOUT US PAGE START */
