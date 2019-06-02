@@ -1,5 +1,4 @@
 /* GENERAL START */
-
 @font-face{
     font-family:My Font; 
     src: url(../fonts/GOTHIC.TTF)
@@ -8,7 +7,6 @@
 *{
     font-family: "My Font", Arial, sans-serif; 
 }
-
 /* GENERAL END */
 
 /* HEADER START */
@@ -23,11 +21,9 @@ header{
     height: 250px;
     background-repeat: no-repeat;
 }
-
 /* HEADER END */
 
 /* NAVIGATION START */
-
 .navbar{
     top: 150px;
     word-spacing: 2em;
@@ -61,7 +57,6 @@ header{
 }
 
 .drop:hover .dropbutton{
-    /* background-color: #3f3250; */
     color: #ff9966;
 }
 
@@ -90,11 +85,9 @@ z-index: 10;
 .fdropcontent a:hover {background-color: #ffaa80;}
 
 .drop:hover .fdropcontent {display: block;}
-
 /* NAVIGATION END */
 
 /* FOOTER START */
-
 footer{
     position: static;
     top: 700px;
@@ -102,11 +95,9 @@ footer{
     text-align: center;
     border-top: 2px solid #ff9966;    
 }
-
 /* FOOTER END */
 
 /* CAREERS PAGE START */
-
 #careerhero{
     background-image: url(../images/careershero.jpeg);
     background-size: 700px 700px;
@@ -140,11 +131,9 @@ footer{
     text-align: left;
     font-weight: bold;
 }
-
 /* CAREERS PAGE END */
 
 /* ABOUT US PAGE START */
-
 #aboutusportait1, #aboutusportait2, #aboutusportait3, #aboutusportait4, #aboutusportait5{
     background-size: 200px 200px;
     height: 200px;
@@ -195,24 +184,20 @@ footer{
     padding-bottom: 30px;
     margin: 0 auto;
 }
-
 /* ABOUT US PAGE END */
 
-/* header, nav, main, footer{
-    display: block;
-} */
+/* HOME PAGE START */
 #slideshowwrapper{
     border-top: 2px solid #ff9966;
 }
-/* #slideshowwrapper table tr td{ 
-    border: 1px solid black;
-}*/
 #slideshowwrapper table tr td:first-child{
     width: 1100px
 }#slideshowwrapper table tr td:last-child{
     text-align: center;
 }
+/* HOME PAGE START */
 
+/*CAFE - MAIN MENU START */
 #cafewrapper{
     border-top: 2px solid #ff9966;
 }
@@ -222,7 +207,6 @@ footer{
     padding-bottom: 30px;
 }
 
-/*CAFE - MAIN MENU START*/
 h1{
     font-weight: 550;
     width: 1300px;
@@ -247,36 +231,6 @@ main ul{
     display: inline-block;
     width: 33.33%;
 }
-/* .images{
-    height: 500px;
-    width: 800px;
-} */
-/* .pizza{
-    background-image: url(../images/pizza.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 33.33%;
-    position: relative;
-}
-.soup{
-    background-image: url(../images/soup.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    position: relative;
-}
-.sandwich{
-    background-image: url(../images/sandwich.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    position: relative;
-
-} */
 .centertext{
     position: absolute;
     color: white;
@@ -294,40 +248,41 @@ main a{
 .clear{
     clear: both;
 }
-/* CAFE - PIZZA MENU START*/
-#pizzawrapper{
+/*CAFE - MAIN MENU END */
+
+/* CAFE - FOOD MENU START */
+#foodwrapper{
     border-top: 2px solid #ff9966;
 }
-#pizzawrapper table{
+#foodwrapper table{
     width: 1300px;
     margin: 0 auto;
     padding-top: 30px;
     padding-bottom: 30px;
 }
-#pizzawrapper table tr:first-child{
+#foodwrapper table tr:first-child{
     text-align: center;
 }
-#pizzawrapper table tr td p{
+#foodwrapper table tr td p{
     font-size: 2em;
     text-align: center;
 }
 
-#pizzawrapper table tr th h2{
+#foodwrapper table tr th h2{
     width: 700px;
 }
+/* CAFE - FOOD MENU END */
 
-/* CAFE - SALAD MENU START*/
-/* CAFE - SOUP MENU START*/
-/*FURNISHINGS - BED START*/
-/*FURNISHINGS - BATH START*/
-/*FURNISHINGS - LIVING START*/
-/*FURNISHINGS - KITCHEN START*/
-/*FURNISHINGS - PATIO START*/
+/* FURNISHINGS START */
 #furnishingwrapper p{
     width: 1300px;
     padding-bottom: 30px;
     text-align: left;
     margin: 0 auto;
+}
+
+#wrapper{
+    border-top: 2px solid #ff9966;
 }
 
 #slideshow {
@@ -350,3 +305,4 @@ main a{
     width: 900px;
     height: 500px;
 }
+/* FURNISHINGS END */
