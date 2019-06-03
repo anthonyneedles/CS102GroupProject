@@ -225,7 +225,6 @@ main ul{
 .block1{
     float: left;
     width: 33.33%;
-    
 }
 .block2{
     float: right;
@@ -236,16 +235,15 @@ main ul{
     width: 33.33%;
 }
 .centertext{
-    /* position: absolute; */
-    color: black;
+    position: absolute;
     font-weight: bold;
     font-size: 400%;
-    top: 40%;
+    top: 50%;
     text-align: center;
 }
 main a{
     text-decoration: none;
-    color: black;
+    color: white;
     
 }
 .clear{
@@ -304,7 +302,6 @@ main a{
 #slideshow > div > img {
     border: 2px solid white;
     border-radius: 5%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     width: 900px;
     height: 500px;
 }
