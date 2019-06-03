@@ -309,3 +309,11 @@ main a{
     height: 500px;
 }
 /* FURNISHINGS END */
+#welcomeMessage{
+    padding-right: 8%;
+    color: #ff9966;
+}
+#welcomeMessage2{
+    padding-right: 8%;
+    color: black;
+}
